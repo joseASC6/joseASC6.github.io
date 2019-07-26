@@ -2,7 +2,7 @@
 
 body{
     margin: 0;
-    background-color: antiquewhite;
+    background-color: white;
 }
 .top{
     text-align: center;
@@ -39,4 +39,26 @@ li a{
 }
 .about{
     text-align: center;
+    
+}
+.notTop{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-bottom: solid;
+    border-color: #2a5aa7;
+}
+p{
+    font-size: 25px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    text-align: left;
+    font-size: 33px;
+}
+.left{
+    text-align: left;
+    font-size: 25px;
 }
