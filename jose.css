@@ -1,0 +1,42 @@
+
+
+body{
+    margin: 0;
+    background-color: antiquewhite;
+}
+.top{
+    text-align: center;
+    background-image: url("header.jpg");
+    background-repeat:no-repeat;
+    /* background-size: 1283.85px 722px; */
+    background-size: 100% auto;
+    height: 722px;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    position: absolute;
+    float: none;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 6%;
+    word-spacing: 60px;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    
+} 
+li a{
+    font-family: inherit;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    text-align: center;
+}
+.about{
+    text-align: center;
+}
