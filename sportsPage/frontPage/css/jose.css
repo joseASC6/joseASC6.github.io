@@ -1,13 +1,17 @@
 @font-face {
-    font-family: "font1";
-    src: url("julius-sans.zip/JuliusSansOne-Regular.ttf");
+    font-family: 'railwayregular';
+    src: url('railway-webfont.woff2') format('woff2'),
+         url('railway-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 body{
     margin: 0;
     background-color: #014FBC;
     color: white;
-    font-family: "font1";
+    font-family: "railwayregular";
 }
 .top{
     text-align: center;
@@ -82,4 +86,25 @@ h3{
     display: list-item;
     text-align: left;
     font-size: 27px;
+}
+#PDF{
+    margin-right: 1100px;
+    margin-left: 100px;
+    border-color: white;
+    background-color: white;
+    color: #014FBC;
+}
+footer{
+    background-color: white;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    word-spacing: 50px;
+    text-align: center;
+}
+footer > p{
+    
+    color: #014FBC;
+    display: inline-block;
+    
 }
