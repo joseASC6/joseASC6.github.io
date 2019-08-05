@@ -8,12 +8,13 @@
 }
 
 body{
-    margin: 0;
+    margin: 0px;
     background-color: #014FBC;
     color: white;
     font-family: "railwayregular";
 }
 .top{
+    margin-top: 0px;
     text-align: center;
     background-image: url("header.jpg");
     background-repeat:no-repeat;
@@ -23,21 +24,25 @@ body{
     background-attachment: fixed;
     background-position: center;
 }
-/* #jose{
-    display: inline-block;
+#Name{
+    font-size: 60px;
     position: absolute;
-    text-align: center;
-    top:90%;
-} */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 600px;
+}
 
 ul{
+    background-color: white;
+    width: 100%;
     list-style-type: none;
     overflow: hidden;
     position: absolute;
-    float: none;
+    position: fixed;
+    padding: 10px;
     left: 50%;
     transform: translate(-50%, -50%);
-    top: 5.5%;
+    top: 10px;
     word-spacing: 60px;
     text-align: center;
 }
@@ -47,7 +52,7 @@ li{
 } 
 li a{
     font-family: inherit;
-    color: white;
+    color: #014FBC;
     text-decoration: none;
     font-size: 40px;
     text-align: center;
@@ -88,10 +93,15 @@ h3{
     font-size: 27px;
 }
 #PDF{
+    text-decoration: none;
     margin-right: 1100px;
     margin-left: 100px;
     border-color: white;
     background-color: white;
+    color: #014FBC;
+}
+p > a{
+    text-decoration: none;
     color: #014FBC;
 }
 footer{

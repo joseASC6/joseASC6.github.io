@@ -1,12 +1,15 @@
 body{
     margin: 0;
     color: white;
-    background-color: white;
+    background-color: #2b5d99;
 }
 .top{
     text-align: center;
     background-color: #333;
     width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
 }
 ul{
   list-style-type: none;
@@ -14,6 +17,7 @@ ul{
   overflow: hidden;
   word-spacing: 60px;
   margin:0px;
+  top: 10px;
 }
 li{
  display: inline-block;
@@ -26,15 +30,15 @@ li a{
 }
 #img1{
     background-image: url(Sports/soccer.jpg);
-    height: 673px;
+    height: 445px;
 }
 #img2{
     background-image: url(Sports/tackEdit.png);
-    height: 673px;
+    height: 445px;
 }
 #img3{
     background-image: url(Sports/wrestling.jpg);
-    height: 673px;
+    height: 445px;
 }
 .img{
     position: relative;
@@ -42,6 +46,39 @@ li a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    /* border-bottom: 20px;
-    border-color: white; */
+    
+    padding: 15px;
+    border: solid 2px white;
+    border-radius: 10px;
+    margin: .83em;
+    /* border-bottom: 20px; */
+    border-color: white;
+}
+.text{
+    margin-top: 50px;
+}
+h2{
+    
+    color: white;
+    background-color: #333;
+    padding: 15px;
+    border: solid 2px white;
+    border-radius: 10px;
+    margin: .83em;
+    border-bottom: 20px;
+    border-color: white;
+}
+footer{
+    background-color: white;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    word-spacing: 50px;
+    text-align: center;
+}
+footer > p{
+    
+    color: #014FBC;
+    display: inline-block;
+    
 }
