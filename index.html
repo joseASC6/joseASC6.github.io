@@ -1,67 +1,153 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <script src="script.js"></script> -->
-    <link rel="stylesheet" type="text/css" href="css/jose.css">
     <title>Jose Garcia</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/newstyle.css">
+    <link href="css/all.css" rel="stylesheet">
+    <link href="css/fontawesome.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body>
-    <div class="top">
-        <h1 id="Name"><em>Jose Garcia</em></h1>
+<body data-spy = "scroll" data-target=".navbar">
+ 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-        <ul style="list-style: none;">
-                <li><a href="index.html"><strong>Home</strong></a></li>
-                <li><a href="default.asp"><strong>Works</strong></a></li>
-                <li><a href="sportsPage/sports.html"><strong>Sports</strong></a></li>
-                <li><a href="contact.asp"><strong>Contacts</strong></a></li>
-        </ul>
-        
-    </div>
+<div class="row body mx-0 d-block">
 
-    <div > 
-        <div class="about">
-        <h1 class="body"> About</h1>
-        <p class="body">
-                I am a high school student at Lawrence High School, New York. My biggest passions are programming and sports. When I am not out playing a sport or inside hacking away at my computer, I love to go out and spend time with family and my friends. I also have a huge interest in debating, politics, business and stocks and any sort of technology. My current goal is to use my coding skills as a tool to help me create a pathway into a career in either programming or business. If you ever need someone that is hard-working, dedicated and good at critical thinking don't hesitate to reach out to me.
-        </p>
-        </div>
-    </div>
+
+    <!-- Side Navbar-->
+    <nav class="col-md-2 position-fixed navbar d-block pl-5 pt-5 mt-5">
+        <div class="pl-3 pt-3">
+            <h2 class="nav-title">
+                Jose Garcia
+                <span class="d-block">Programmer</span>
+            </h2>
     
-    <div class="body">
-        <h1 class="body">Resume</h1>
-        <div class="body">
-            <h2> Education</h2>
-            <p class="left"> <strong>Lawrence High School,</strong> 2 Reilly Rd, Cedarhurst, NY 11516</p>
-            <p class="left">Graduation Year 2021</p>
+            <ul class="list-unstyled nav_items navbar-nav">
+                <li class="nav-item"><a href = "#Home" class = "nav-link">Home</a></li>
+                <li class="nav-item"><a href = "#About" class = "nav-link">About</a></li>
+                <li class="nav-item"><a href = "#Resume" class = "nav-link">Resume</a></li>
+                <li class="nav-item"><a href = "#Contact" class = "nav-link">Contact</a></li>
+            </ul>
+            <!-- Material switch -->
+            <div class="switch mt-5">
+                <label>
+                Off
+                <input type="checkbox">
+                <span class="lever"></span> On
+                </label>
+            </div>
         </div>
 
-        <div class="body">
-            <h2>Experience</h2>
-            <h3>Regents Tutor (2017-Present) </h3>
-            <li class="bullets">Mastered Algebra, Geometry, Trigonometry, Physics and Chemistry
-            </li>
-            <li class="bullets">Tutored Max Bardales- m.j.bardales9@gmail.com</li>
-            <h3>All Star Code </h3>
-            <li class="bullets"> Was taught diffrent programming langauges such as JS, CSS and HTML</li>
-            <li class="bullets"> Learned the diffrent types of programming careers</li>
-            <li class="bullets"> Showed the entrepreneurship side of a technology businesses</li>
+    </nav>
+
+    <!-- Main Body -->
+    <div class="col-md-10 float-md-right main-body pr-0">
+        <!-- Header -->
+        <header class=" header" id = "Home">
+            <div class="">
+                <div class="text-box">
+                    <div class="text-center text-white  ">
+                        <h5 class=" text-white"><em>Hey, I'm </em></h5>
+                        <h1 class="font-italic text-white">― Jose Garcia ―</h1>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </header>
+
+        <!-- Content  -->
+        <div class="content mt-5">
+
+                <div class="text-center about" id="About">
+                    <h2 class="">― About ―</h2>
+                    <p class="">I am a high school student at Lawrence High School, New York. My biggest passions are programming and sports. When I am not out playing a sport or inside hacking away at my computer, I love to go out and spend time with family and my friends. I also have a huge interest in debating, politics, business and stocks and any sort of technology. My current goal is to use my coding skills as a tool to help me create a pathway into a career in either programming or business. If you ever need someone that is hard-working, dedicated and good at critical thinking don't hesitate to reach out to me.</p>
+                </div>
+
+                <div class="mt-5 resume" id="Resume">
+                    <h2 class="text-center">― Resume ―</h2>
+                    <div class="resume-text mt-3">
+
+                        <div class="">
+                            <h3>Education</h3>
+                            <h4>Lawrence High School | LI, NY</h4>
+                            <ul class="list-unstyled">
+                                <li>- GPA 3.8</li>
+                                <li>- Grauation Year 2021</li>
+                                <li>- High Honorable Student</li>
+                                <li>- Top Classes: AP Chemistry, AP Physics, AP Computer Science A, AP Macroeconomics</li>
+                            </ul>
+                        </div>
+
+                        <div class="">
+                            <h3>All Star Code</h3>
+                            <h4>Publicis World Wide | NYC</h4>
+                            
+                            <ul class="list-unstyled">
+                                <li>- Summer of 2019</li>
+                                <li>- Learned JavaScript, HTML, and CSS</li>
+                                <li>- Metored by self made programmers</li>
+                                <li>- Organized and presented web app as final project</li>
+                        </div>
+                        
+                        <div class="">
+                            <h3>Global Entreprenauership Experience</h3>
+                            <h4>Rutgers University | NJ</h4>
+                            
+                            <ul class="list-unstyled">
+                                <li>- Summer of 2020</li>
+                                <li>- Emmersed in a blend of virtual talks, activities and engaging group discussions</li>
+                                <li>- Taught about marketing, branding, design and innovation</li>
+                                <li>- Presented products and ideas to mentors and colleagues</li>
+                        </div>
+
+                        <div class="">
+                            <h3>Teaching Assistant</h3>
+                            <h4>Girls Who Code | LHS</h4>
+                            
+                            <ul class="list-unstyled">
+                                <li>- 2019 to Present</li>
+                                <li>- Lead coding lessons and projects in classrooms</li>
+                                <li>- Shared personal coding experiences to students</li>
+                        </div>
+
+                        <div class="">
+                            <h3>Core Skill Coordinator</h3>
+                            <h4>All Star Code</h4>
+                            
+                            <ul class="list-unstyled">
+                                <li>- Summer of 2020</li>
+                                <li>- Lead virtual classrooms with successful entrepreneurs and programmers</li>
+                                <li>- Communicated with teams to improve overall smoothness of the Summer Intensive</li>
+                        </div>
+
+                    </div>
+                </div>
+
         </div>
 
-        <div class="body">
-            <h2>Skills</h2>
-            <li class="bullets"></li>
-            <p id="PDF"><a target="_blank" href="css/Resume - Google Docs.PDF">Resume PDF</a></p>
-        </div>
+        <!-- Footer -->
+        <footer class="" id="Contact">
+            <h1 class="text-center">― Get In Touch ―</h1>
+            <i class="fas fa-at"></i>
+            <i class="fab fa-facebook"></i>
+        </footer>
     </div>
-    <footer>
-        <p>LinkedIn</p>
-        <p>NCSA</p>
-        <p>GitHub</p>
-        <p>Instagram</p>
-    </footer>
+   
+
+
+</div>
+   
     
+   
 </body>
 </html>

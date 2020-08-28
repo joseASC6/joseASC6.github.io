@@ -1,0 +1,65 @@
+/*Overall*/
+html {
+  --bg: #FFFFFF;
+  --nav_bg: #F8F8F8;
+  --footer_bg: #E1E1E1;
+  --color_text: #000000;
+  --accent_text: #0019FF;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--color_text);
+}
+
+/* sidebar */
+nav {
+  position: fixed;
+  height: 100vh;
+  background-color: var(--nav_bg);
+}
+
+.nav_items {
+  margin-top: 2em;
+}
+
+.nav_items li {
+  font-size: larger;
+  margin-bottom: 2em;
+}
+
+/* header */
+.header {
+  height: 100vh;
+}
+
+.header h1 {
+  font-size: 3.5rem;
+}
+
+.header h5 {
+  font-size: 2.5rem;
+}
+
+.header .row {
+  padding-top: 28em;
+  padding-bottom: 22em;
+  background-image: url("images/trail2.png");
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header .row .text-box {
+  margin-left: 20em;
+  margin-right: 20em;
+}
+
+.content .about p {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+/*# sourceMappingURL=style.css.map */

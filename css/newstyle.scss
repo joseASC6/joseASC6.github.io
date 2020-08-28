@@ -1,0 +1,80 @@
+/*Overall*/
+
+html {
+    --bg: #FFFFFF;
+    --nav_bg: #F8F8F8;
+    --footer_bg: #E1E1E1;
+    --color_text: #000000;
+    --accent_text: #0019FF;
+}
+  
+body{
+    background-color: var(--bg);
+    color: var(--color_text);
+}
+  
+/* sidebar */
+nav{
+    position: fixed;
+    height: 100vh;
+    background-color: var(--nav_bg);
+} 
+.nav_items{
+    margin-top: 2em;
+    li{
+        font-size: larger;
+        margin-bottom: 2em;
+    }
+}
+
+//body
+.body{
+    padding-right: 0px;
+    margin-right: 0px;
+}
+  
+  
+/* header */
+.header{
+    padding-top: 25em;
+    padding-bottom: 22em;
+    background-image: url("images/trail2.png");
+    margin-left: -15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .text-box{
+        margin-left: 20em;
+        margin-right: 20em;
+    }
+    h1{
+        font-size: 3.2rem;
+    }
+    h5{
+        font-size: 2.5rem;
+    }
+       
+}
+// main body
+.main-body{
+    padding-right: 0px;
+}
+
+// content
+.content{
+    .about{
+        p{
+            font-size: large;
+            padding-left: 15rem;
+            padding-right: 15rem;
+            line-height: 2.2rem;
+        }
+    }
+
+    .resume{
+        .resume-text{
+            padding-left: 7rem;
+            margin-left: 8rem;
+        }
+    }
+}

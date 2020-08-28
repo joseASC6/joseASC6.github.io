@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'railwayregular';
+    src: url('railway-webfont.woff2') format('woff2'),
+         url('railway-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*Overall*/
+.mainBody{
+    background: black;
+}
+.container {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    width: 1056px;
+}
+
+/* sidebar */
+
+.sidebar-sticky{
+    position: fixed;
+    height: 100vh;
+    float: left;
+    background-color: #272727;
+    width: 18%;
+    padding-left: 4%;
+}
+.nav-item{
+  color: #5a5a5a; 
+  font-size: 21px;
+  margin-bottom: 45px; 
+}
+.sidebar-sticky nav{
+    margin-top: 13em;
+    list-style: none;
+}
+.sidebar-title{
+    position: absolute;
+    top: 5em;
+}
+.sidebar-title > h2 {
+    font-size: 29px;
+    font-weight: bolder;
+}
+#sidebar-name{
+    color: white;
+}
+#sidebar-job{
+    color: #F6296F;
+}
+#sidebar-currentitem{
+    color: white;
+}
+
+/* Responsive */
+
+/* @media screen and (max-width: 700px) {
+    .sidebar-sticky {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar-title .nav-item{float: left;}
+    div.content {margin-left: 0;}
+}
+  
+@media screen and (max-width: 400px) {
+.sidebar a {
+    text-align: center;
+    float: none;
+}
+} */
+
+
+/* header */
+.header {
+    float: right;
+    width: 82%;
+    height: 70vh;
+}
+.bg { 
+    float: right;
+    background-image: url("images/trail2.png");
+  
+    height: 100%; 
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title-contain {
+    position: absolute;
+    color: white;
+}
