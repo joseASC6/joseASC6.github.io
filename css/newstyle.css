@@ -5,11 +5,21 @@ html {
   --footer_bg: #E1E1E1;
   --color_text: #000000;
   --accent_text: #0019FF;
+  --footer_bg: #cccccc;
+}
+
+html[data-theme="dark"] {
+  --bg: #333333;
+  --nav_bg: #434343;
+  --footer_bg: #a3a3a3;
+  --color_text: #ffffff;
+  --accent_text: #ff41ef;
+  --footer_bg: #bbbbbb;
 }
 
 body {
-  background-color: var(--bg);
-  color: var(--color_text);
+  background-color: var(--bg) !important;
+  color: var(--color_text) !important;
 }
 
 /* sidebar */
@@ -28,6 +38,10 @@ nav {
   margin-bottom: 2em;
 }
 
+.nav_items li a {
+  color: var(--color_text);
+}
+
 .body {
   padding-right: 0px;
   margin-right: 0px;
@@ -37,8 +51,7 @@ nav {
 .header {
   padding-top: 25em;
   padding-bottom: 22em;
-  background-image: url("images/trail2.png");
-  margin-left: -15px;
+  background-image: url("images/header.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,5 +84,72 @@ nav {
 .content .resume .resume-text {
   padding-left: 7rem;
   margin-left: 8rem;
+}
+
+footer {
+  background-color: var(--footer_bg);
+}
+
+footer #ft_logo a {
+  color: var(--color_text);
+}
+
+footer #ft_logo i {
+  margin-left: 4rem !important;
+  margin-right: 4rem !important;
+}
+
+input[type=checkbox] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 52px;
+  height: 27px;
+  background: grey;
+  float: right;
+  border-radius: 100px;
+  position: relative;
+}
+
+label:after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 90px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+input:checked + label {
+  background: var(--bg);
+}
+
+input:checked + label:after {
+  left: calc(100% - 5px);
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+label:active:after {
+  width: 45px;
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  -webkit-transition: all 750ms !important;
+  transition: all 750ms !important;
+  -webkit-transition-delay: 0 !important;
+          transition-delay: 0 !important;
 }
 /*# sourceMappingURL=newstyle.css.map */
