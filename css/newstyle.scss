@@ -1,21 +1,21 @@
 /*Overall*/
 
 html {
+    font-size: 1rem;
     --bg: #FFFFFF;
-    --nav_bg: #F8F8F8;
-    --footer_bg: #E1E1E1;
+    --nav_bg: #dddddd;
     --color_text: #000000;
     --accent_text: #0019FF;
     --footer_bg: #cccccc;
 }
 //darkmode
 html[data-theme="dark"] {
+    font-size: 1rem;
     --bg: #333333;
     --nav_bg: #434343;
-    --footer_bg: #a3a3a3;
     --color_text: #ffffff;
     --accent_text: #ff41ef;
-    --footer_bg: #bbbbbb;
+    --footer_bg: #727272;
 }
 
 
@@ -25,10 +25,14 @@ body{
 }
   
 /* sidebar */
-nav{
-    position: fixed;
-    height: 100vh;
+aside{
     background-color: var(--nav_bg);
+}
+nav{
+    position: fixed; 
+    .nav-title{
+        display: inline-table;
+    }
 } 
 .nav_items{
     margin-top: 2em;
@@ -57,10 +61,6 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    .text-box{
-        margin-left: 20em;
-        margin-right: 20em;
-    }
     h1{
         font-size: 3.2rem;
     }
@@ -79,16 +79,7 @@ nav{
     .about{
         p{
             font-size: large;
-            padding-left: 15rem;
-            padding-right: 15rem;
             line-height: 2.2rem;
-        }
-    }
-
-    .resume{
-        .resume-text{
-            padding-left: 7rem;
-            margin-left: 8rem;
         }
     }
 }
@@ -100,10 +91,6 @@ footer{
     #ft_logo{
         a{
             color: var(--color_text);
-        }
-        i{
-            margin-left: 4rem!important;
-            margin-right: 4rem!important;
         }
     }
 }
@@ -159,3 +146,5 @@ html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
 }
+
+
