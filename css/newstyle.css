@@ -35,6 +35,10 @@ nav .nav-title {
   display: inline-table;
 }
 
+nav button i {
+  color: var(--color_text) !important;
+}
+
 .nav_items {
   margin-top: 2em;
 }
@@ -86,6 +90,11 @@ footer {
 
 footer #ft_logo a {
   color: var(--color_text);
+}
+
+footer h5 span {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 input[type=checkbox] {

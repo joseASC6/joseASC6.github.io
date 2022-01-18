@@ -33,6 +33,11 @@ nav{
     .nav-title{
         display: inline-table;
     }
+    button{
+        i{
+            color: var(--color_text) !important;
+        }
+    }
 } 
 .nav_items{
     margin-top: 2em;
@@ -91,6 +96,11 @@ footer{
     #ft_logo{
         a{
             color: var(--color_text);
+        }
+    }
+    h5{
+        span{
+            align-self: flex-end;
         }
     }
 }
